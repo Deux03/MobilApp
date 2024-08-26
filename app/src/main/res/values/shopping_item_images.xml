@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="shopping_item_images">
+        <item>@drawable/prog1</item>
+        <item>@drawable/prog2</item>
+        <item>@drawable/prog3</item>
+        <item>@drawable/prog4</item>
+        <item>@drawable/prog1</item>
+        <item>@drawable/prog2</item>
+        <item>@drawable/prog3</item>
+        <item>@drawable/prog4</item>
+        <item>@drawable/prog2</item>
+        <item>@drawable/prog3</item>
+    </array>
+</resources>

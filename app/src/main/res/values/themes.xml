@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.MobilApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/oliveBrown</item>
+        <!-- Darker shade of the primary color for the status bar -->
+        <item name="colorPrimaryDark">@color/darkOlive</item>
+        <!-- Accent color used for UI elements like buttons -->
+        <item name="colorAccent">@color/goldenYellow</item>
+        <!-- Background color for activities -->
+        <item name="android:windowBackground">@color/lightBeige</item>
+        <!-- Primary text color -->
+        <item name="android:textColorPrimary">@color/darkBrown</item>
+        <!-- Secondary text color -->
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
+    <style name="Theme.MobilApp" parent="Base.Theme.MobilApp" />
+</resources>

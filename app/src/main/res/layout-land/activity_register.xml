@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/registrationTableView"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:text="@string/registration"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registrationTableView"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:autofillHints="username"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameEditText"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="-54dp"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_toEndOf="@+id/usernameEditText"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailEditText"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="-6dp"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/passwordAgainEditText"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailEditText"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_toEndOf="@+id/passwordEditText"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/password_again"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="265dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/passwordAgainEditText"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="-5dp"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:autofillHints="phone"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:inputType="phone" />
+
+    <Spinner
+        android:id="@+id/phoneSpinner"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordAgainEditText"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_toEndOf="@+id/phoneNumberEditText" />
+
+    <EditText
+        android:id="@+id/adressEditText"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneSpinner"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="-14dp"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:autofillHints="postalAddress"
+        android:ems="10"
+        android:hint="@string/adress"
+        android:inputType="textMultiLine|textPostalAddress"
+        android:maxLines="3" />
+
+    <RadioGroup
+        android:id="@+id/accountTypeGroup"
+        android:layout_width="260dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/phoneSpinner"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="53dp"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin">
+
+        <RadioButton
+            android:id="@+id/costumerRadioBtn"
+            android:layout_width="249dp"
+            android:layout_height="37dp"
+
+            android:text="@string/costumer" />
+
+        <RadioButton
+            android:id="@+id/adminRadioBtn"
+            android:layout_width="246dp"
+            android:layout_height="30dp"
+            android:text="@string/admin" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/accountTypeGroup"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneSpinner"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/accountTypeGroup"
+        android:onClick="register"
+        android:text="@string/register" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneSpinner"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="65dp"
+        android:layout_toEndOf="@+id/registerButton"
+        android:onClick="cancel"
+        android:text="@string/cancel" />
+
+</RelativeLayout>

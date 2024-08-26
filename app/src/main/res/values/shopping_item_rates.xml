@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="shopping_item_rates">
+        <item>4.5</item>
+        <item>4.2</item>
+        <item>4.8</item>
+        <item>4.7</item>
+        <item>4.0</item>
+        <item>4.9</item>
+        <item>3.8</item>
+        <item>4.3</item>
+        <item>4.6</item>
+        <item>4.1</item>
+    </array>
+</resources>

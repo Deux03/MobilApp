@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/searchOption"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        />
+    <item
+        android:id="@+id/course"
+        android:title="@string/course"
+        android:icon="@drawable/ic_courses"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/cart"
+        android:title="@string/cart"
+        android:icon="@drawable/ic_cart"
+        app:showAsAction="always"
+        app:actionLayout="@layout/custom_menu_cart_item" />
+    <item
+        android:id="@+id/view_selector"
+        android:title="@string/view"
+        android:icon="@drawable/ic_view"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/profileBtn"
+        android:title="@string/profile"
+        app:showAsAction="never"
+        app:actionViewClass="android.widget.SearchView"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/logoutButton"
+        android:title="@string/log_out"
+        app:showAsAction="never"
+        app:actionViewClass="android.widget.SearchView"
+        android:orderInCategory="99"
+        />
+</menu>

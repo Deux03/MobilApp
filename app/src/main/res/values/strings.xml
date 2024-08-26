@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">MobilApp</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">E-mail</string>
+    <string name="password_again">Password again</string>
+    <string name="cancel">Cancel</string>
+    <string name="phone_number">Phone number</string>
+    <string name="registration">Registration</string>
+    <string name="adress">Adress</string>
+    <string name="costumer">Costumer</string>
+    <string name="admin">Admin</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="view">View</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log out</string>
+    <string name="guest_login">Log in as a Guest</string>
+    <string name="profile">Profile</string>
+    <string name="courses">Courses</string>
+    <string name="course">Course</string>
+    <string name="purchase">Purchase All</string>
+    <string name="delete">Delete</string>
+    <string name="item_placeholder">Item placeholder</string>
+    <string name="item_info_placeholder">Item info placeholder</string>
+    <string name="buy">Buy</string>
+    <string name="phone_type">Phone type</string>
+    <string name="address">Address</string>
+    <string name="account_type">Account Type</string>
+    <string name="contentdescriptonhere">ContentDescriptonHere</string>
+    <string-array name="phone_modes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Else</item>
+    </string-array>
+    <string-array name="course_names">
+        <item>Frontend Development Basics</item>
+        <item>Mastering JavaScript</item>
+        <item>Full Stack Developer</item>
+        <item>Advanced CSS Techniques</item>
+        <item>Web Design with Figma</item>
+        <item>React for Beginners</item>
+        <item>Node.js and Express.js</item>
+        <item>Building APIs with GraphQL</item>
+        <item>Responsive Web Design</item>
+        <item>Project Management for Developers</item>
+    </string-array>
+
+    <string-array name="course_desc">
+        <item>Learn the fundamentals of frontend development, including HTML, CSS, and JavaScript!</item>
+        <item>Take your JavaScript skills to the next level with this in-depth course!</item>
+        <item>Become a Full Stack Developer with our comprehensive training program!</item>
+        <item>Master advanced CSS techniques and make your websites stand out!</item>
+        <item>Design stunning web interfaces using Figma in this practical course!</item>
+        <item>Get started with React and build dynamic, interactive web applications!</item>
+        <item>Learn how to build server-side applications using Node.js and Express.js!</item>
+        <item>Discover the power of GraphQL for creating flexible and efficient APIs!</item>
+        <item>Create websites that look great on any device with our responsive design course!</item>
+        <item>Learn how to manage development projects effectively with our project management course!</item>
+    </string-array>
+
+    <string-array name="course_prices">
+        <item>79$</item>
+        <item>89$</item>
+        <item>99$</item>
+        <item>49$</item>
+        <item>59$</item>
+        <item>69$</item>
+        <item>79$</item>
+        <item>89$</item>
+        <item>49$</item>
+        <item>59$</item>
+    </string-array>
+
+
+</resources>
